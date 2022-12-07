@@ -3,8 +3,8 @@ from flask import Flask, g, session, redirect, request, url_for, jsonify, render
 from flask_cors import CORS
 from requests_oauthlib import OAuth2Session
 
-DISCORD_OAUTH2_CLIENT_ID = '761778934848421929'
-DISCORD_OAUTH2_CLIENT_SECRET = 'PTKRYcJ2HdnlRkYoU7ShQw8VU-IPz5an'
+DISCORD_OAUTH2_CLIENT_ID = 'XXXXXXXXXXXXXXXXXXXXXXX'
+DISCORD_OAUTH2_CLIENT_SECRET = 'XXXXXXXXXXXXXXXXXXXXXXX'
 DISCORD_OAUTH2_REDIRECT_URI = 'http://localhost:5000/callback'
 
 API_BASE_URL = os.environ.get('API_BASE_URL', 'https://discordapp.com/api')
